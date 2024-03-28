@@ -57,7 +57,7 @@ with col4:
 st.write("On each page there is: ")
 st.markdown("- A date and time picker, for the start / end date that the data is plotted")
 st.markdown("- A submit button that when pressed fetches the data for the plot")
-st.markdown("- A ‘downsampling on-off’ toggle")
+st.markdown("- A ‘downsampling on-off’ toggle Quick little change")
 st.markdown("- A downsampling count text entry.")
 
 
