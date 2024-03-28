@@ -5,7 +5,7 @@ from streamlit.testing.v1 import AppTest
 def test_1_home_page_appears():
         """A test that will check the home page opens"""
         try:
-                AppTest.from_file("../Home.py").run()
+                AppTest.from_file("Home.py").run()
                 assert True
         except:
                 assert False
