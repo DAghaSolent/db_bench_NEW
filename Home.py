@@ -45,7 +45,7 @@ with col4:
     st.markdown("<h3 style='text-align: left;'>PostgreSQL</h3>", unsafe_allow_html=True)
 
 with col3:
-    st.image("./icons/TimescaleLogo.png", width=45)
+    st.image("./icons/TimeScaleLogo.png", width=45)
 with col4:
     st.markdown("<h3 style='text-align: left;'>TimescaleDB</h3>", unsafe_allow_html=True)
 
