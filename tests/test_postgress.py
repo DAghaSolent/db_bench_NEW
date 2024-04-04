@@ -168,6 +168,7 @@ def test_25_submit_timescaledb():
 #     at.toggle(key="downsample_toggle_arcticdb").set_value(1).run()
 #     at.number_input(key="downsample_value_arcticdb").increment().run()
 #     assert at.number_input(key="downsample_value_arcticdb").value == 6
+# Quick addition to test CICD
 
 def test_28_set_downsample_value_arcticdb():
     """A test to increment the downsample number input"""
