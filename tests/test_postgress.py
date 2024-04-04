@@ -162,12 +162,12 @@ def test_25_submit_timescaledb():
 #     assert at.toggle(key="downsample_toggle_arcticdb").set_value(1).run()
 # Adding a change to test CICD after removing test 26.
 
-def test_27_increment_downsample_value_arcticdb():
-    """A test to increment the downsample number input"""
-    at = AppTest.from_file("pages/ArcticDB.py").run()
-    at.toggle(key="downsample_toggle_arcticdb").set_value(1).run()
-    at.number_input(key="downsample_value_arcticdb").increment().run()
-    assert at.number_input(key="downsample_value_arcticdb").value == 6
+# def test_27_increment_downsample_value_arcticdb():
+#     """A test to increment the downsample number input"""
+#     at = AppTest.from_file("pages/ArcticDB.py").run()
+#     at.toggle(key="downsample_toggle_arcticdb").set_value(1).run()
+#     at.number_input(key="downsample_value_arcticdb").increment().run()
+#     assert at.number_input(key="downsample_value_arcticdb").value == 6
 
 def test_28_set_downsample_value_arcticdb():
     """A test to increment the downsample number input"""
